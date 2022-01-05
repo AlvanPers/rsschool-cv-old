@@ -30,10 +30,10 @@ func home_page(w http.ResponseWriter, r *http.Request) {
 }
 ```
 ---
-## Educatuion
+### Educatuion
 * Vitebsk State Politechnic College (technician programmer P-CAD) 
 * Polotsk State University (ingeneer)
-## Languages
+### Languages
 * Russian - Native
 * English - A2 <br>
 [Up](#anchor)
