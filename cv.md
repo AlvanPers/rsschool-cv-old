@@ -15,7 +15,7 @@
 * HTML, SCC
 * Git
 * JavaScript
-* Go and C# (basic)
+* Go 
 ### Code Example
 ```
 func home_page(w http.ResponseWriter, r *http.Request) {
