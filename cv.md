@@ -6,6 +6,8 @@
 
 * phone: +375********* 
 * e-mail: AlexYoup@outlook.com
+* github: https://github.com/AlvanPers
+* discord: AlexYou#2356
    
 ### About myself
 
