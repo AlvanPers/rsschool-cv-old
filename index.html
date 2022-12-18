@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__ava" src="./assets/img/IBC_25_may_1958_snapshot.jpg" alt="this image">
+        <div class="header__title">
+            <h1>Yupatov Alexey</h1>
+            <h2>Front End Developer</h2>
+        </div>
+    </header>
+    <main>
+        <aside class="aside">
+            <h2> Skills</h2>
+            <ul>
+                <li>HTML, SCC</li>
+                <li>Git</li>
+                <li>JavaScript</li>
+                <li>Go </li>
+            </ul>
+            <h2> Contact information</h2>
+            <nav>
+                <ul>
+                    <li> e-mail: <a href="mailto:AlexYoup@outlook.com">AlexYoup@outlook.com</a></li>
+                    <li> Github: <a href="https://github.com/AlvanPers">AlvanPers</a></li>
+                    <li> Discord: <a href="https://discordapp.com/users/1052680835339391048/">AlexYou#2356</a></li>
+                </ul>
+            </nav>
+            <h2> Educatuion</h2>
+            <ul>
+                <li>Vitebsk State Politechnic College (technician programmer P-CAD) </li>
+                <li>Polotsk State University (ingeneer)</li>
+            </ul>
+            <h2> Languages</h2>
+            <ul>
+                <li>Russian - Native</li>
+                <li>English - A2</li>
+            </ul>
+        </aside>
+        <div class="main__body">
+            <h2> About myself</h2>
+            <p>
+                I work foreman of biological treatment water. I learn English and programming laguages.
+                Easily adapt to constantly changing circumstances. I know how to maintain hardware and software.
+                Managed server infrastructure.
+            </p>
+            <h2> Code Example</h2>
+            <pre><code>
+    func home_page(w http.ResponseWriter, r *http.Request) {
+        t, err := template.ParseFiles("MySite/templates/home_page.html")
+        if err != nil {
+            fmt.Fprint(w, err.Error())
+        }
+        err = t.ExecuteTemplate(w, "home_page", nil)
+        if err != nil {
+            fmt.Println(err)
+        }
+    }
+    </code></pre>
+            <h2>Project</h2>
+            <ul>
+                <li><a href="https://github.com/AlvanPers/speech-project-go.git">Speech generator</a></li>
+            </ul>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__avagit">
+            <a href="https://github.com/AlvanPers" target="_blank">
+                <img src="./assets/icons/github-logo.png" alt="github">
+            </a>
+        </div>
+        <h5>
+            <pre>       2022        </pre>
+        </h5>
+        <div class="footer__avarss">
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="./assets/icons/rs_school_js.svg" alt="rss-logo" width="70" height="50">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
