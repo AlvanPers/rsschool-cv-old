@@ -19,8 +19,14 @@ body {
   justify-content: space-between;
 }
 
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 * {
   color: var(--secondary-color);
+  box-sizing: border-box;
 }
 
 h1 {
@@ -51,6 +57,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header__ava {
