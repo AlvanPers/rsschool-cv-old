@@ -35,7 +35,7 @@ func home_page(w http.ResponseWriter, r *http.Request) {
 ---
 ### Educatuion
 * Vitebsk State Politechnic College (technician programmer P-CAD) 
-* Polotsk State University (ingeneer)
+* Polotsk State University (civil ingeneer)
 ### Languages
 * Russian - Native
 * English - A2 <br>
