@@ -4,7 +4,7 @@
 # Yupatov Alexey
 ## Contact information
 
-* phone: +375********* 
+* phone: +375********** 
 * e-mail: AlexYoup@outlook.com
 * github: https://github.com/AlvanPers
 * discord: AlexYou#2356
